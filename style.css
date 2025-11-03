@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h2{
+    font-size: 22px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 14px;
+}
+.principal{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 90%;
+}
+.encabezado{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+.task{
+    
+    margin: 7px 0px;
+}
+.logoCamino{
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.titulo{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+h5{
+    margin-top: 0;
+}
+.versiculo{
+    text-align: center;
+    font-style: normal;
+    font-size: 12px;
+    margin-bottom: 0;
+    font-weight: 700;
+    line-height: 1.5;
+}
+.cita{
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+    margin: 5px;
+    margin-bottom: 30px;
+  
+}
+.general{
+    display: flex;
+    flex-direction: column;
+}
+.contenedorGeneral{
+    display: grid;
+    grid-template-columns: 30px auto ;
+    row-gap: 16px;
+}
+.footer{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #3E3D3D;
+}
+.divFooter{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.bloque{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    justify-content: center;
+}
+
